@@ -83,6 +83,11 @@
 		6A4F647C1FBB768600B0FEEB /* NotesModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesModel.m; sourceTree = "<group>"; };
 		6A4F647E1FBB769700B0FEEB /* MapsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapsModel.h; sourceTree = "<group>"; };
 		6A4F647F1FBB769700B0FEEB /* MapsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapsModel.m; sourceTree = "<group>"; };
+		6A4F64811FBB7A6600B0FEEB /* MapsModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapsModuleProtocol.h; sourceTree = "<group>"; };
+		6A4F64821FBB7A8200B0FEEB /* NotesModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesModuleProtocol.h; sourceTree = "<group>"; };
+		6A4F64831FBB7A9800B0FEEB /* WeatherModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherModuleProtocol.h; sourceTree = "<group>"; };
+		6A4F64841FBB7AB100B0FEEB /* NewsModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsModuleProtocol.h; sourceTree = "<group>"; };
+		6A4F64851FBB7AC500B0FEEB /* SettingsModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsModuleProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +230,7 @@
 		6A4F644A1FBB69A000B0FEEB /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				6A4F64811FBB7A6600B0FEEB /* MapsModuleProtocol.h */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 		6A4F64501FBB69A000B0FEEB /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				6A4F64821FBB7A8200B0FEEB /* NotesModuleProtocol.h */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -327,6 +334,7 @@
 		6A4F64561FBB69A000B0FEEB /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				6A4F64831FBB7A9800B0FEEB /* WeatherModuleProtocol.h */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -378,6 +386,7 @@
 		6A4F645C1FBB69A000B0FEEB /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				6A4F64841FBB7AB100B0FEEB /* NewsModuleProtocol.h */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -429,6 +438,7 @@
 		6A4F64621FBB69A000B0FEEB /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				6A4F64851FBB7AC500B0FEEB /* SettingsModuleProtocol.h */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
