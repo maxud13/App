@@ -21,6 +21,11 @@
 		6A4F646B1FBB72C900B0FEEB /* WeatherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F646A1FBB72C900B0FEEB /* WeatherVC.m */; };
 		6A4F646E1FBB72DA00B0FEEB /* NewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F646D1FBB72DA00B0FEEB /* NewsVC.m */; };
 		6A4F64711FBB72ED00B0FEEB /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64701FBB72ED00B0FEEB /* SettingsVC.m */; };
+		6A4F64741FBB764F00B0FEEB /* SettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64731FBB764F00B0FEEB /* SettingModel.m */; };
+		6A4F64771FBB766200B0FEEB /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64761FBB766200B0FEEB /* NewsModel.m */; };
+		6A4F647A1FBB767200B0FEEB /* WeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64791FBB767200B0FEEB /* WeatherModel.m */; };
+		6A4F647D1FBB768600B0FEEB /* NotesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F647C1FBB768600B0FEEB /* NotesModel.m */; };
+		6A4F64801FBB769700B0FEEB /* MapsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F647F1FBB769700B0FEEB /* MapsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +73,16 @@
 		6A4F646D1FBB72DA00B0FEEB /* NewsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsVC.m; sourceTree = "<group>"; };
 		6A4F646F1FBB72ED00B0FEEB /* SettingsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
 		6A4F64701FBB72ED00B0FEEB /* SettingsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		6A4F64721FBB764F00B0FEEB /* SettingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingModel.h; sourceTree = "<group>"; };
+		6A4F64731FBB764F00B0FEEB /* SettingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingModel.m; sourceTree = "<group>"; };
+		6A4F64751FBB766200B0FEEB /* NewsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
+		6A4F64761FBB766200B0FEEB /* NewsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
+		6A4F64781FBB767200B0FEEB /* WeatherModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherModel.h; sourceTree = "<group>"; };
+		6A4F64791FBB767200B0FEEB /* WeatherModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherModel.m; sourceTree = "<group>"; };
+		6A4F647B1FBB768600B0FEEB /* NotesModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesModel.h; sourceTree = "<group>"; };
+		6A4F647C1FBB768600B0FEEB /* NotesModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesModel.m; sourceTree = "<group>"; };
+		6A4F647E1FBB769700B0FEEB /* MapsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapsModel.h; sourceTree = "<group>"; };
+		6A4F647F1FBB769700B0FEEB /* MapsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +209,8 @@
 		6A4F64481FBB69A000B0FEEB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6A4F647E1FBB769700B0FEEB /* MapsModel.h */,
+				6A4F647F1FBB769700B0FEEB /* MapsModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -243,6 +260,8 @@
 		6A4F644E1FBB69A000B0FEEB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6A4F647B1FBB768600B0FEEB /* NotesModel.h */,
+				6A4F647C1FBB768600B0FEEB /* NotesModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -292,6 +311,8 @@
 		6A4F64541FBB69A000B0FEEB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6A4F64781FBB767200B0FEEB /* WeatherModel.h */,
+				6A4F64791FBB767200B0FEEB /* WeatherModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -341,6 +362,8 @@
 		6A4F645A1FBB69A000B0FEEB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6A4F64751FBB766200B0FEEB /* NewsModel.h */,
+				6A4F64761FBB766200B0FEEB /* NewsModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -390,6 +413,8 @@
 		6A4F64601FBB69A000B0FEEB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6A4F64721FBB764F00B0FEEB /* SettingModel.h */,
+				6A4F64731FBB764F00B0FEEB /* SettingModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -543,10 +568,15 @@
 			files = (
 				6A4F640C1FBB5ADA00B0FEEB /* ViewController.m in Sources */,
 				6A4F646E1FBB72DA00B0FEEB /* NewsVC.m in Sources */,
+				6A4F64801FBB769700B0FEEB /* MapsModel.m in Sources */,
 				6A4F64651FBB724D00B0FEEB /* NotesVС.m in Sources */,
 				6A4F64121FBB5ADA00B0FEEB /* App.xcdatamodeld in Sources */,
+				6A4F64741FBB764F00B0FEEB /* SettingModel.m in Sources */,
 				6A4F64681FBB72A900B0FEEB /* MapsVC.m in Sources */,
+				6A4F647A1FBB767200B0FEEB /* WeatherModel.m in Sources */,
+				6A4F64771FBB766200B0FEEB /* NewsModel.m in Sources */,
 				6A4F64711FBB72ED00B0FEEB /* SettingsVC.m in Sources */,
+				6A4F647D1FBB768600B0FEEB /* NotesModel.m in Sources */,
 				6A4F641A1FBB5ADA00B0FEEB /* main.m in Sources */,
 				6A4F646B1FBB72C900B0FEEB /* WeatherVC.m in Sources */,
 				6A4F64091FBB5ADA00B0FEEB /* AppDelegate.m in Sources */,
