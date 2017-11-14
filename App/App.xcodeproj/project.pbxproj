@@ -16,6 +16,11 @@
 		6A4F641A1FBB5ADA00B0FEEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64191FBB5ADA00B0FEEB /* main.m */; };
 		6A4F64241FBB5ADA00B0FEEB /* AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64231FBB5ADA00B0FEEB /* AppTests.m */; };
 		6A4F642F1FBB5ADB00B0FEEB /* AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F642E1FBB5ADB00B0FEEB /* AppUITests.m */; };
+		6A4F64651FBB724D00B0FEEB /* NotesVС.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64641FBB724D00B0FEEB /* NotesVС.m */; };
+		6A4F64681FBB72A900B0FEEB /* MapsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64671FBB72A900B0FEEB /* MapsVC.m */; };
+		6A4F646B1FBB72C900B0FEEB /* WeatherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F646A1FBB72C900B0FEEB /* WeatherVC.m */; };
+		6A4F646E1FBB72DA00B0FEEB /* NewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F646D1FBB72DA00B0FEEB /* NewsVC.m */; };
+		6A4F64711FBB72ED00B0FEEB /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64701FBB72ED00B0FEEB /* SettingsVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		6A4F642A1FBB5ADB00B0FEEB /* AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4F642E1FBB5ADB00B0FEEB /* AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppUITests.m; sourceTree = "<group>"; };
 		6A4F64301FBB5ADB00B0FEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A4F64631FBB724D00B0FEEB /* NotesVС.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotesVС.h"; sourceTree = "<group>"; };
+		6A4F64641FBB724D00B0FEEB /* NotesVС.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NotesVС.m"; sourceTree = "<group>"; };
+		6A4F64661FBB72A900B0FEEB /* MapsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapsVC.h; sourceTree = "<group>"; };
+		6A4F64671FBB72A900B0FEEB /* MapsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapsVC.m; sourceTree = "<group>"; };
+		6A4F64691FBB72C900B0FEEB /* WeatherVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherVC.h; sourceTree = "<group>"; };
+		6A4F646A1FBB72C900B0FEEB /* WeatherVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherVC.m; sourceTree = "<group>"; };
+		6A4F646C1FBB72DA00B0FEEB /* NewsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsVC.h; sourceTree = "<group>"; };
+		6A4F646D1FBB72DA00B0FEEB /* NewsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsVC.m; sourceTree = "<group>"; };
+		6A4F646F1FBB72ED00B0FEEB /* SettingsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		6A4F64701FBB72ED00B0FEEB /* SettingsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,7 @@
 		6A4F64061FBB5ADA00B0FEEB /* App */ = {
 			isa = PBXGroup;
 			children = (
+				6A4F64441FBB69A000B0FEEB /* User Story */,
 				6A4F64071FBB5ADA00B0FEEB /* AppDelegate.h */,
 				6A4F64081FBB5ADA00B0FEEB /* AppDelegate.m */,
 				6A4F640A1FBB5ADA00B0FEEB /* ViewController.h */,
@@ -133,6 +149,263 @@
 				6A4F64301FBB5ADB00B0FEEB /* Info.plist */,
 			);
 			path = AppUITests;
+			sourceTree = "<group>";
+		};
+		6A4F64441FBB69A000B0FEEB /* User Story */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F64451FBB69A000B0FEEB /* Maps Module */,
+				6A4F644B1FBB69A000B0FEEB /* Notes Module */,
+				6A4F64511FBB69A000B0FEEB /* Weather Module */,
+				6A4F64571FBB69A000B0FEEB /* News Module */,
+				6A4F645D1FBB69A000B0FEEB /* Settings Module */,
+			);
+			path = "User Story";
+			sourceTree = "<group>";
+		};
+		6A4F64451FBB69A000B0FEEB /* Maps Module */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F64461FBB69A000B0FEEB /* MVC */,
+				6A4F644A1FBB69A000B0FEEB /* Protocol */,
+			);
+			path = "Maps Module";
+			sourceTree = "<group>";
+		};
+		6A4F64461FBB69A000B0FEEB /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F64471FBB69A000B0FEEB /* Controller */,
+				6A4F64481FBB69A000B0FEEB /* Model */,
+				6A4F64491FBB69A000B0FEEB /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		6A4F64471FBB69A000B0FEEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F64661FBB72A900B0FEEB /* MapsVC.h */,
+				6A4F64671FBB72A900B0FEEB /* MapsVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A4F64481FBB69A000B0FEEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A4F64491FBB69A000B0FEEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A4F644A1FBB69A000B0FEEB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6A4F644B1FBB69A000B0FEEB /* Notes Module */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F644C1FBB69A000B0FEEB /* MVC */,
+				6A4F64501FBB69A000B0FEEB /* Protocol */,
+			);
+			path = "Notes Module";
+			sourceTree = "<group>";
+		};
+		6A4F644C1FBB69A000B0FEEB /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F644D1FBB69A000B0FEEB /* Controller */,
+				6A4F644E1FBB69A000B0FEEB /* Model */,
+				6A4F644F1FBB69A000B0FEEB /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		6A4F644D1FBB69A000B0FEEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F64631FBB724D00B0FEEB /* NotesVС.h */,
+				6A4F64641FBB724D00B0FEEB /* NotesVС.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A4F644E1FBB69A000B0FEEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A4F644F1FBB69A000B0FEEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A4F64501FBB69A000B0FEEB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6A4F64511FBB69A000B0FEEB /* Weather Module */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F64521FBB69A000B0FEEB /* MVC */,
+				6A4F64561FBB69A000B0FEEB /* Protocol */,
+			);
+			path = "Weather Module";
+			sourceTree = "<group>";
+		};
+		6A4F64521FBB69A000B0FEEB /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F64531FBB69A000B0FEEB /* Controller */,
+				6A4F64541FBB69A000B0FEEB /* Model */,
+				6A4F64551FBB69A000B0FEEB /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		6A4F64531FBB69A000B0FEEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F64691FBB72C900B0FEEB /* WeatherVC.h */,
+				6A4F646A1FBB72C900B0FEEB /* WeatherVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A4F64541FBB69A000B0FEEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A4F64551FBB69A000B0FEEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A4F64561FBB69A000B0FEEB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6A4F64571FBB69A000B0FEEB /* News Module */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F64581FBB69A000B0FEEB /* MVC */,
+				6A4F645C1FBB69A000B0FEEB /* Protocol */,
+			);
+			path = "News Module";
+			sourceTree = "<group>";
+		};
+		6A4F64581FBB69A000B0FEEB /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F64591FBB69A000B0FEEB /* Controller */,
+				6A4F645A1FBB69A000B0FEEB /* Model */,
+				6A4F645B1FBB69A000B0FEEB /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		6A4F64591FBB69A000B0FEEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F646C1FBB72DA00B0FEEB /* NewsVC.h */,
+				6A4F646D1FBB72DA00B0FEEB /* NewsVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A4F645A1FBB69A000B0FEEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A4F645B1FBB69A000B0FEEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A4F645C1FBB69A000B0FEEB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6A4F645D1FBB69A000B0FEEB /* Settings Module */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F645E1FBB69A000B0FEEB /* MVC */,
+				6A4F64621FBB69A000B0FEEB /* Protocol */,
+			);
+			path = "Settings Module";
+			sourceTree = "<group>";
+		};
+		6A4F645E1FBB69A000B0FEEB /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F645F1FBB69A000B0FEEB /* Controller */,
+				6A4F64601FBB69A000B0FEEB /* Model */,
+				6A4F64611FBB69A000B0FEEB /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		6A4F645F1FBB69A000B0FEEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F646F1FBB72ED00B0FEEB /* SettingsVC.h */,
+				6A4F64701FBB72ED00B0FEEB /* SettingsVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A4F64601FBB69A000B0FEEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A4F64611FBB69A000B0FEEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A4F64621FBB69A000B0FEEB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +542,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A4F640C1FBB5ADA00B0FEEB /* ViewController.m in Sources */,
+				6A4F646E1FBB72DA00B0FEEB /* NewsVC.m in Sources */,
+				6A4F64651FBB724D00B0FEEB /* NotesVС.m in Sources */,
 				6A4F64121FBB5ADA00B0FEEB /* App.xcdatamodeld in Sources */,
+				6A4F64681FBB72A900B0FEEB /* MapsVC.m in Sources */,
+				6A4F64711FBB72ED00B0FEEB /* SettingsVC.m in Sources */,
 				6A4F641A1FBB5ADA00B0FEEB /* main.m in Sources */,
+				6A4F646B1FBB72C900B0FEEB /* WeatherVC.m in Sources */,
 				6A4F64091FBB5ADA00B0FEEB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
