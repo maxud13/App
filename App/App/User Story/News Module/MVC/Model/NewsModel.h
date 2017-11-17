@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NewsModuleProtocol.h"
 
-@interface NewsModel : NSObject
+@interface NewsModel : NSObject <NewsModuleInput>
 
 @end

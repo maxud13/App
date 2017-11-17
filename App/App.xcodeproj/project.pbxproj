@@ -26,6 +26,9 @@
 		6A4F647A1FBB767200B0FEEB /* WeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64791FBB767200B0FEEB /* WeatherModel.m */; };
 		6A4F647D1FBB768600B0FEEB /* NotesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F647C1FBB768600B0FEEB /* NotesModel.m */; };
 		6A4F64801FBB769700B0FEEB /* MapsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F647F1FBB769700B0FEEB /* MapsModel.m */; };
+		6A4F648D1FBF552500B0FEEB /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F648C1FBF552500B0FEEB /* NetworkManager.m */; };
+		6A4F64911FBF55D500B0FEEB /* GlobalConstsnts.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64901FBF55D500B0FEEB /* GlobalConstsnts.m */; };
+		6A4F64941FBF5BD900B0FEEB /* NetworkManager+News.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64931FBF5BD900B0FEEB /* NetworkManager+News.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +91,12 @@
 		6A4F64831FBB7A9800B0FEEB /* WeatherModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherModuleProtocol.h; sourceTree = "<group>"; };
 		6A4F64841FBB7AB100B0FEEB /* NewsModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsModuleProtocol.h; sourceTree = "<group>"; };
 		6A4F64851FBB7AC500B0FEEB /* SettingsModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsModuleProtocol.h; sourceTree = "<group>"; };
+		6A4F648B1FBF552500B0FEEB /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		6A4F648C1FBF552500B0FEEB /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		6A4F648F1FBF55D500B0FEEB /* GlobalConstsnts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConstsnts.h; sourceTree = "<group>"; };
+		6A4F64901FBF55D500B0FEEB /* GlobalConstsnts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalConstsnts.m; sourceTree = "<group>"; };
+		6A4F64921FBF5BD900B0FEEB /* NetworkManager+News.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkManager+News.h"; sourceTree = "<group>"; };
+		6A4F64931FBF5BD900B0FEEB /* NetworkManager+News.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NetworkManager+News.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +147,7 @@
 		6A4F64061FBB5ADA00B0FEEB /* App */ = {
 			isa = PBXGroup;
 			children = (
+				6A4F64891FBF54B500B0FEEB /* Library */,
 				6A4F64441FBB69A000B0FEEB /* User Story */,
 				6A4F64071FBB5ADA00B0FEEB /* AppDelegate.h */,
 				6A4F64081FBB5ADA00B0FEEB /* AppDelegate.m */,
@@ -443,6 +453,35 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		6A4F64891FBF54B500B0FEEB /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F648E1FBF55AC00B0FEEB /* Global Const */,
+				6A4F648A1FBF54C400B0FEEB /* Network Service */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6A4F648A1FBF54C400B0FEEB /* Network Service */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F648B1FBF552500B0FEEB /* NetworkManager.h */,
+				6A4F648C1FBF552500B0FEEB /* NetworkManager.m */,
+				6A4F64921FBF5BD900B0FEEB /* NetworkManager+News.h */,
+				6A4F64931FBF5BD900B0FEEB /* NetworkManager+News.m */,
+			);
+			path = "Network Service";
+			sourceTree = "<group>";
+		};
+		6A4F648E1FBF55AC00B0FEEB /* Global Const */ = {
+			isa = PBXGroup;
+			children = (
+				6A4F648F1FBF55D500B0FEEB /* GlobalConstsnts.h */,
+				6A4F64901FBF55D500B0FEEB /* GlobalConstsnts.m */,
+			);
+			path = "Global Const";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -588,7 +627,10 @@
 				6A4F64711FBB72ED00B0FEEB /* SettingsVC.m in Sources */,
 				6A4F647D1FBB768600B0FEEB /* NotesModel.m in Sources */,
 				6A4F641A1FBB5ADA00B0FEEB /* main.m in Sources */,
+				6A4F64911FBF55D500B0FEEB /* GlobalConstsnts.m in Sources */,
 				6A4F646B1FBB72C900B0FEEB /* WeatherVC.m in Sources */,
+				6A4F64941FBF5BD900B0FEEB /* NetworkManager+News.m in Sources */,
+				6A4F648D1FBF552500B0FEEB /* NetworkManager.m in Sources */,
 				6A4F64091FBB5ADA00B0FEEB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

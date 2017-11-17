@@ -87,11 +87,40 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="szf-v8-lU9">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="9C9-Ie-91k">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9C9-Ie-91k" id="7AW-qc-QFI">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="arb-Iv-pMy"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="OjB-xN-29L"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="szf-v8-lU9" secondAttribute="trailing" id="ibA-vB-snm"/>
+                            <constraint firstItem="szf-v8-lU9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ilu-Kj-af5"/>
+                            <constraint firstItem="szf-v8-lU9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mLb-Zx-VWE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="szf-v8-lU9" secondAttribute="bottom" id="qdE-l6-9pi"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="News" id="rol-hD-hrN"/>
                     <navigationItem key="navigationItem" id="n6Y-Gi-2dK"/>
+                    <connections>
+                        <outlet property="NewsTableView" destination="szf-v8-lU9" id="bHF-LP-tYl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -104,7 +133,19 @@
                     <view key="view" contentMode="scaleToFill" id="PQZ-bd-sqi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Hpw-sC-dUt" customClass="NotecVC">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="0.26770512190000001" green="0.48788855819999999" blue="0.45990055549999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0IQ-MC-fEA" firstAttribute="bottom" secondItem="Hpw-sC-dUt" secondAttribute="bottom" id="Hn0-Dg-fVW"/>
+                            <constraint firstItem="Hpw-sC-dUt" firstAttribute="top" secondItem="0IQ-MC-fEA" secondAttribute="top" id="KnL-Nn-7bA"/>
+                            <constraint firstItem="Hpw-sC-dUt" firstAttribute="leading" secondItem="0IQ-MC-fEA" secondAttribute="leading" id="Olv-rS-VlR"/>
+                            <constraint firstItem="0IQ-MC-fEA" firstAttribute="trailing" secondItem="Hpw-sC-dUt" secondAttribute="trailing" id="zXF-E3-6dk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="0IQ-MC-fEA"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Notes" id="fLw-UG-EXV"/>

@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol NewsModuleProtocol <NSObject>
+@protocol NewsModuleInput <NSObject>
+
+-(NSInteger)newsCount;
+-(id)newsObjectAtindex:(NSInteger)index;
 
 @end
+
+@protocol NewsModuleOutput <NSObject>
+
+
+
+@end
+
