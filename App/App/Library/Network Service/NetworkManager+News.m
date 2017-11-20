@@ -18,9 +18,10 @@ static NSString *const kNewsURL = @"https://newsapi.org/v2/top-headlines?sources
 {
     NSString *urlString = [NSString stringWithFormat:@"%@%@",kNewsURL, kNewsApiKey];
     NSURL *url = [NSURL URLWithString:urlString];
+    
     NSURLRequest *urlRequst = [NSURLRequest requestWithURL:url];
     
-    [NSURLRequest requestWithURL:[NSURL URLWithString:urlString]];
+    [self sendURLRequest:urlRequst withSuccess:success andFailure:filure];
 }
 
 

@@ -12,12 +12,14 @@
 
 -(NSInteger)newsCount;
 -(id)newsObjectAtindex:(NSInteger)index;
+-(void)dataNeedsToReload;
+
 
 @end
 
 @protocol NewsModuleOutput <NSObject>
 
-
+-(void)dataDidReload;
 
 @end
 

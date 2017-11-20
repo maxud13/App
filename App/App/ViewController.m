@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NewsItem.h"
 
 @interface ViewController ()
 
@@ -20,10 +21,6 @@
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end

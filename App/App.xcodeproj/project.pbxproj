@@ -29,6 +29,7 @@
 		6A4F648D1FBF552500B0FEEB /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F648C1FBF552500B0FEEB /* NetworkManager.m */; };
 		6A4F64911FBF55D500B0FEEB /* GlobalConstsnts.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64901FBF55D500B0FEEB /* GlobalConstsnts.m */; };
 		6A4F64941FBF5BD900B0FEEB /* NetworkManager+News.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64931FBF5BD900B0FEEB /* NetworkManager+News.m */; };
+		6A4F64971FC344FD00B0FEEB /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F64961FC344FD00B0FEEB /* NewsItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,8 @@
 		6A4F64901FBF55D500B0FEEB /* GlobalConstsnts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalConstsnts.m; sourceTree = "<group>"; };
 		6A4F64921FBF5BD900B0FEEB /* NetworkManager+News.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkManager+News.h"; sourceTree = "<group>"; };
 		6A4F64931FBF5BD900B0FEEB /* NetworkManager+News.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NetworkManager+News.m"; sourceTree = "<group>"; };
+		6A4F64951FC344FD00B0FEEB /* NewsItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsItem.h; sourceTree = "<group>"; };
+		6A4F64961FC344FD00B0FEEB /* NewsItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -382,6 +385,8 @@
 			children = (
 				6A4F64751FBB766200B0FEEB /* NewsModel.h */,
 				6A4F64761FBB766200B0FEEB /* NewsModel.m */,
+				6A4F64951FC344FD00B0FEEB /* NewsItem.h */,
+				6A4F64961FC344FD00B0FEEB /* NewsItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -630,6 +635,7 @@
 				6A4F64911FBF55D500B0FEEB /* GlobalConstsnts.m in Sources */,
 				6A4F646B1FBB72C900B0FEEB /* WeatherVC.m in Sources */,
 				6A4F64941FBF5BD900B0FEEB /* NetworkManager+News.m in Sources */,
+				6A4F64971FC344FD00B0FEEB /* NewsItem.m in Sources */,
 				6A4F648D1FBF552500B0FEEB /* NetworkManager.m in Sources */,
 				6A4F64091FBB5ADA00B0FEEB /* AppDelegate.m in Sources */,
 			);

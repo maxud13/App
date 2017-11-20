@@ -11,4 +11,6 @@
 
 @interface NewsModel : NSObject <NewsModuleInput>
 
+@property (nonatomic, weak)id <NewsModuleOutput> output;
+
 @end
